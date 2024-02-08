@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1707341908114" clover="3.2.0">
+  <project timestamp="1707341908115" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="15" coveredconditionals="15" methods="8" coveredmethods="8" elements="51" coveredelements="51" complexity="0" loc="28" ncloc="28" packages="2" files="2" classes="2"/>
+    <package name="src">
+      <metrics statements="27" coveredstatements="27" conditionals="15" coveredconditionals="15" methods="8" coveredmethods="8"/>
+      <file name="dataFunctions.js" path="/Users/saraiva/lab/proj/SAP012-dataverse/src/dataFunctions.js">
+        <metrics statements="27" coveredstatements="27" conditionals="15" coveredconditionals="15" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="25" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="test">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="data.js" path="/Users/saraiva/lab/proj/SAP012-dataverse/test/data.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

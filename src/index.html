@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <header>
+    <div id="background__logo">
+      <img src="./assets/logo.jpg" id="logo">
+      <h1>O Mundo das Plantas Carnívoras</h1>
+    </div>
+
+    <h2>Descubra a fascinante beleza e peculiaridade dessas plantas incríveis.</h2>
+  </header>
+
+
+
+  <h2 id="plant-type">Tipos de Plantas</h2>
+
+  <div id="filtro">
+    <div>
+    <label for="select-sort">Organizar por: </label>
+    <select name="select-sort" id="select-sort" data-testid="select-sort">
+      <option value="default"> </option>
+      <option value="alturaPlanta">Altura</option>
+      <option value="precoPlanta">Preço</option>
+      <option value="name">Nome</option>
+    </select>
+    <label for="select-order"> e </label>
+    <select name="sort-order" id="select-order" data-testid="select-order">
+      <option value="default"> </option>
+      <option value="asc">Asc</option>
+      <option value="desc">Desc</option>
+    </select>
+    </div>
+
+    <div>
+      <label for="select-filter">Filtrar por: </label>
+      <select name="select-filter" id="select-filter" data-testid="select-filter">
+        <option value="default"> </option>
+        <option value="facilidadeCriacao">Facilidade de criação</option>
+        <option value="tempoDeVida">Tempo de vida</option>
+        <option value="capturaPresas">Captura de presas</option>
+      </select>
+      <label for="select-subFilter"> e </label>
+      <select name="select-subFilter" id="select-subFilter">
+      </select>
+    </div>
+
+
+    <button data-testid="button-clear" id="button-clear">Limpar</button>
+  </div>
+
+  <main id="root"></main>
+
+  <ul class="introdution">
+    <h3>Curiosidades</h3>
+    <li><strong>Tempo médio de vida de uma planta carnivora é <span class="mediaVida"></span> anos.</strong></li>
+    <li><strong>Altura média de uma planta carnivora é de <span class="mediaAltura"></span> cm.</strong></li>
+    <li><strong>O que é planta carnívora?</strong>
+      <br>As plantas carnívoras, também chamadas de plantas insetívoras, são plantas que possuem um jeito próprio de se
+      alimentar. Sua estrutura folicular modificada permite atrair, capturar e digerir animais de pequeno porte. Os
+      nutrientes das presas por sua vez servem de alimento para o crescimento e desenvolvimento da planta.
+    </li>
+    <li><strong>O que as plantas carnívoras comem?<br></strong> As plantas carnívoras atraem, capturam e digerem animais
+      de pequeno porte como insetos (moscas, abelhas,
+      vespas…), aracnídeos e até mesmo anfíbios, aves e répteis.
+    </li>
+    <li><strong>Classificação de acordo com o movimento que fazem para capturar as presas: </strong><br>Plantas carnívoras
+      ativas: se movimentam para capturar as presas; Plantas carnívoras passivas: não se
+      movimentam para capturar as presas; Plantas carnívoras semiativas: fazem algum movimento após a captura
+      para aumentar a área de contato com a presa, o que permite absorver melhor os nutrientes.
+    </li>
+  </ul>
+
+
+  <script src="main.js" type="module"></script>
+</body>
+
+<footer>
+
+  <img src="./assets/logo.jpg" id="logo-footer"><br>
+</footer>
+
+</html>
+

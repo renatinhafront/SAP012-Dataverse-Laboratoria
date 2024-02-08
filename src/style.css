@@ -1,0 +1,242 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik+Doodle+Shadow&display=swap');
+
+h1, h2, h3, p, label, button, select, li {
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  /* background: url("./assets/fundo.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 70%;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#background__logo {
+  background: #7DAF70;
+  height: 150px;
+  max-width: 100%;
+  min-width: 280px;
+  text-align: center;
+}
+
+#background__logo h1{
+  margin-bottom: 0px;
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+  select {
+  border-radius: 5px;
+  font-size: 15px;
+  color: gray;
+}
+
+button {
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  max-width: 700px;
+  min-width: 280px;
+}
+
+header {
+  width: 100%;
+  font-size: larger;
+}
+
+header h2 {
+  color: #7DAF70;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.introdution {
+  height: auto;
+  border-radius: 30px;
+  text-align: center;
+  text-align: justify;
+  border: solid 3px #607F55;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.2;
+}
+
+.introdution li {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #607F55;
+  margin: 1;
+}
+
+#plant-type {
+  color:#607F55;
+  font-weight: 700;
+  letter-spacing: 0em;
+  font-size: 18px;
+}
+
+#filtro {
+  border-radius: 30px;
+  height: 121px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color:#607F55;
+  width: 90%;
+}
+
+#filtro label {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  height: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#filtro div {
+  flex-direction: row;
+  display: flex;
+  margin: 0.5rem;
+}
+
+button {
+  width: 98px;
+  height: 27.89px;
+  background: #607F55;
+  color: #FFF;
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color:rgb(30, 102, 9);
+  color:white;
+}
+
+h3 {
+  color: #607F55;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+#plant__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #607F55;
+  align-items: center;
+  padding: 5%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.plant__item {
+  margin: 1rem;
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #607F55;
+  border-radius: 20px;
+}
+
+.plant__item dd {
+  text-align: center;
+  display: inline;
+}
+
+dd {
+  margin: 0;
+  padding: 0px;
+}
+
+.plant__item p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.plant__img {
+  max-width: 100%;
+  max-height: 120%;
+  border-radius: 20px;
+}
+
+.plant__description {
+  font-size: 5;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+#logo-footer {
+  width: 60px;
+  height: 60px;
+  border-radius: 70%;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+footer {
+  text-align: center;
+  color:#FFF; 
+  background-color: #7DAF70;
+  width: 100%;    
+}
+
+ @media screen and (min-width: 780px) {
+
+  .plant__item {
+    margin: 6px;
+    width: 44%;
+    justify-content: center;
+  }
+
+  #plant__list {
+    margin: 0;
+    padding: 6px;
+  }
+
+  .plant__item li {
+    margin: 0;
+  }
+
+  .plant__img {
+    width: 280px;
+    height: 280px;
+  }
+
+  #filtro {
+    width: 50%;
+  }
+}
+
